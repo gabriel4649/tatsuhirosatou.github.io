@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<title>Carlos Andreu | Software Engineer</title>
+
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
+	
+
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+
+
+$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'			: 640,
+			'height'		: 385,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+	
+
+
+			$("a#sexy").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>
+
+
+
+
+<div id="doc2" class="yui-t7">
+	<div id="inner">
+	
+		<div id="hd">
+			<div class="yui-gc">
+				<div class="yui-u first">
+					<h1>Carlos Andreu</h1>
+					<h2>Software Engineer</h2>
+				</div>
+
+				<div class="yui-u">
+					<div class="contact-info">
+						<h3><a id="pdf" href="resume.pdf">Download PDF</a></h3>
+						<h3><a href="mailto:carlos.andreu@upr.edu">carlos.andreu@upr.edu</a></h3>
+						<h3>(787) - 516-0993</h3>
+					</div><!--// .contact-info -->
+				</div>
+			</div><!--// .yui-gc -->
+		</div><!--// hd -->
+
+		<div id="bd">
+			<div id="yui-main">
+				<div class="yui-b">
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Objective</h2>
+						</div>
+						<div class="yui-u">
+							<p class="enlarge">
+							
+							
+							
+							
+							
+							
+							To acquire an entry-level position that will help me improve my skills and knowledge as a computer engineer while serving as an asset to my employer.
+							</p>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Skills</h2>
+						</div>
+						<div class="yui-u">
+
+								<div class="talent">
+									<h2>App Development</h2>
+									<p>Talent for building applications for Windows, Mac OSX, Linux and Android.</p>
+								</div>
+
+								<div class="talent">
+									<h2>Web Development</h2>
+									
+<p>Ability to create, manage and enhance interactive and secure web 
+applications.</p>
+								</div>
+
+								<div class="talent">
+									<h2>Project Direction</h2>
+									<p>Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.</p>
+								</div>
+						</div>
+					</div><!--// .yui-gf -->
+
+					<div class="yui-gf">
+						<div class="yui-u first">
+							<h2>Technical</h2>
+						</div>
+						<div class="yui-u">
+							<ul class="talent">
+								<li>Java</li>
+								<li>Python</li>
+								<li>C</li>
+								<li>Assembly</li>
+								<li class="last">Bash</li>
+							</ul>
+
+							<ul class="talent">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript (JQuery)</li>
+								<li>PHP</li>
+								<li class="last">SQL</li>
+							</ul>
+
+							<ul class="talent">
+								<li>Mac OS X</li>
+								<li>Windows XP/Vista/7</li>
+								<li>Linux</li>
+								<li>Android</li>
+								<li class="last">Git/Hg/Svn</li>
+							</ul>
+						</div>
+					</div><!--// .yui-gf-->
+
+					<div class="yui-gf">
+	
+						<div class="yui-u first">
+							<h2>Experience</h2>
+						</div><!--// .yui-u -->
+
+						<div class="yui-u">
+						
+						<div class="job">
+								<h2>Verizon Wireless (Research Project)</h2>
+								<h3>Student / Android Application Developer</h3>
+								<h4>2011-Present</h4>
+								<p>Worked with Java and the Android SDK to develop a Task Manager Application for Verizon Wireless. </p>
+								<a id="sexy" href="images/verizonposter.png"><img alt="ciel" src="images/verizonpostert.png" /></a>
+								<a class="video"  title="Verizon Android App" href="http://www.youtube.com/watch?v=beORC5_xrRI?fs=1&amp;autoplay=1&hd=1"><img src="images/androidappt.png" alt="" /></a>
+								<a class="video"  title="The Feedback Form" href="http://www.youtube.com/watch?v=rXG_vy1oUi0?fs=1&amp;autoplay=1&hd=1"><img src="images/feedbackvideot.png" alt="" /></a>
+								<a class="video"  title="CPU & Memory Fetching" href="http://www.youtube.com/watch?v=y-wH2oJQb-I?fs=1&amp;autoplay=1&hd=1"><img src="images/memoryt.png" alt="" /></a>
+
+							</div>
+							
+							<div class="job">
+								<h2>VESO Mesh (Research Project)</h2>
+								<h3>Student / Researcher</h3>
+								<h4>2011-Present</h4>
+								<p>Worked with existing 802.11 technologies to build an ecient and self-healing wireless mesh network.</p>
+							<a id="sexy" href="images/vesoposter.png"><img alt="ciel" src="images/vesopostert.png" /></a>
+							</div>
+
+							<div class="job">
+								<h2>CIEL</h2>
+								<h3>Web Developer</h3>
+								<h4>2010-Present</h4>
+							<p>Web developer, designer and administrator for group of marine biologist and antropologists.  </p>
+							<a id="sexy" href="images/amppr.png"><img alt="ciel" src="images/ampprt.png" /></a>
+							<a id="sexy" href="images/ciel.png"><img alt="ciel" src="images/cielt.png" /></a>
+							<a id="sexy" href="images/spag.png"><img alt="ciel" src="images/spagt.png" /></a>
+							<a id="sexy" href="images/antropico.png"><img alt="ciel" src="images/antropicot.png" /></a>
+							<a id="sexy" href="images/dh.png"><img alt="ciel" src="images/dht.png" /></a>
+							</div>
+							
+							<div class="job">
+								<h2>SeaGrant</h2>
+								<h3>Network Administrator</h3>
+								<h4>2009-2010</h4>
+								<p>Worked with computers running: GNU/Linux, Windows and OSX. Diagnosed and xed hardwareand software errors. Made sure the network, wired and wireless, was running safely and eciently.</p>
+								</div>
+							
+							<div class="job">
+								<h2>Databases</h2>
+								<h3>Student</h3>
+								<h4>2010</h4>
+								<p>Designed and built a website from scratch using HTML, CSS, Javascript, PHP and a MySQL DataBase.</p>
+								<a id="sexy" href="images/evoting1.png"><img alt="ciel" src="images/evoting1t.png" /></a>
+								<a id="sexy" href="images/evoting2.png"><img alt="ciel" src="images/evoting2t.png" /></a>
+								</div>
+							
+							<div class="job">
+								<h2>Free Culture</h2>
+								<h3>Web Designer and Board Member</h3>
+								<h4>2010</h4>
+								<p>Part of an international student organization with the goal to promote free and open source software, music, art, et al.</p>
+								<a id="sexy" href="images/freeculture.png"><img alt="ciel" src="images/freeculturet.png" /></a>
+								</div>
+							
+							
+							<div class="job last">
+								<h2>Advanced Programming in Java</h2>
+								<h3>Student</h3>
+								<h4>2008</h4>
+								<p>Worked with various programing projects to develop a mandelbrot, a financial calculator and a game using Java.</p>
+								<a class="video"  title="Omega Space" href="http://www.youtube.com/watch?v=MMrCebXvw9s?fs=1&amp;autoplay=1&hd=1"><img src="images/omegaspacet.png" alt="" /></a>			
+								<a class="video"  title="Mandlebrot" href="http://www.youtube.com/watch?v=HiPU4YotMaY?fs=1&amp;autoplay=1&hd=1"><img src="images/mandlebrott.png" alt="" /></a>
+								<a class="video"  title="Financial Calculator" href="http://www.youtube.com/watch?v=8iSMi9eA66Y?fs=1&amp;autoplay=1&hd=1"><img src="images/calct.png" alt="" /></a>
+								</div>
+
+							
+							
+
+
+							
+
+						</div><!--// .yui-u -->
+					</div><!--// .yui-gf -->
+
+
+					<div class="yui-gf last">
+						<div class="yui-u first">
+							<h2>Education</h2>
+						</div>					
+						<div class="yui-u">
+							<h3><strong>Major</strong> : Computer Engineering</h3>
+							<h3><strong>Expected Graduation Date</strong> : December, 2011<h3>
+							<h3><strong>GPA</strong> : 3.36/4.00<h3>
+						</div>
+						<div class="yui-u">
+						<br />
+							<h2>University of Puerto Rico, Bayamón (2006-2008)</h2>
+							<p><strong>Relevant Courses</strong> : Introduction to Programming and Algorithms, Foundations of Computing.</p>
+						</div>
+						<div class="yui-u">
+						<br />
+							<h2>University of Puerto Rico, Mayaguez (2008-Present)</h2>
+							<p><strong>Relevant Courses</strong> : Advanced Programming, Data Structures, Programing Languages, Data Bases, Computer Architecture, Operating Systems, Microprocessor Interfacing, Video Game Art, Circuit Analysis, Analog and Digital Electronics. </p>
+						</div>
+						
+					</div><!--// .yui-gf -->
+
+
+				</div><!--// .yui-b -->
+			</div><!--// yui-main -->
+		</div><!--// bd -->
+
+		<div id="ft">
+			<p>Carlos Andreu &mdash; <a href="mailto:carlos.andreu@upr.edu">carlos.andreu@upr.edu</a> &mdash; (787) - 516-0993</p>
+		
+
+		</div><!--// footer -->
+
+	</div><!-- // inner -->
+
+
+</div><!--// doc -->
+
+
+</body>
+</html>
+
