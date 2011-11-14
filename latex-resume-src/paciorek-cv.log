@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.14)  13 NOV 2011 22:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.10.14)  13 NOV 2011 23:59
 entering extended mode
  %&-line parsing enabled.
 **paciorek-cv.tex
@@ -54,36 +54,36 @@ LaTeX Font Info:    ... okay on input line 17.
 Missing character: There is no Ã in font cmbx12!
 Missing character: There is no © in font cmbx12!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 33.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 \OT1/cmr/m/n/10 man-age a wide va-ri-ety
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 \OT1/cmr/m/n/10 of de-sign and de-vel-op-
  []
 
 
-Overfull \hbox (8.31876pt too wide) in paragraph at lines 34--38
+Overfull \hbox (8.31876pt too wide) in paragraph at lines 33--37
 [][] 
  []
 
 
-Overfull \hbox (29.99998pt too wide) in paragraph at lines 40--47
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 39--46
 [][] 
  []
 
 
-Overfull \hbox (29.99998pt too wide) in paragraph at lines 93--98
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 92--97
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
@@ -104,7 +104,7 @@ Here is how much of TeX's memory you used:
 sfonts/cm/cmbxti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 /cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb
 >
-Output written on paciorek-cv.pdf (1 page, 88190 bytes).
+Output written on paciorek-cv.pdf (1 page, 88079 bytes).
 PDF statistics:
  26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
