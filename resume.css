@@ -38,6 +38,8 @@ p.enlarge span { color: #000 }
 
 /* //-- section styles -- */
 
+a#header { color: #333}
+
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 a#pdf:hover { background: #222; }
 
